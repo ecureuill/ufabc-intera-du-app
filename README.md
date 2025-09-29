@@ -1,1 +1,1 @@
-# ufabc-intera-du-app
+Repositório com tarefas e projetos resultantes do curso  [“Programação Acessível para Dispositivos Móveis: uma abordagem baseada no Design Universal”](https://www.interaufabc.com.br/curso-acessibilidade) promovido pelo grupo de pesquisa INTERA da UFABC
