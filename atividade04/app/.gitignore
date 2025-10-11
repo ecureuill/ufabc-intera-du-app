@@ -1,0 +1,7 @@
+#!/bin/sh
+# Module-level .gitignore for atividade04/app
+# Root .gitignore already covers general build and IDE files.
+# Add app-specific ignores here if necessary (eg. local generated files).
+
+# Example:
+# /build/

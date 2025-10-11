@@ -1,0 +1,7 @@
+
+# Module-level .gitignore for atividade04
+# Most common rules (build/, .idea/, .gradle/, local.properties, etc.) are consolidated
+# in the repository root .gitignore. Add module-specific patterns below if needed.
+
+# Example (uncomment to use):
+# /app/build/
