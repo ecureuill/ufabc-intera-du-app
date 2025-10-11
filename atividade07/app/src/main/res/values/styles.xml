@@ -1,0 +1,9 @@
+<resources>
+    <style name="RetangularButtonStyle" parent="Widget.Material3.Button">
+        <item name="cornerRadius">0dp</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/onPrimary</item>
+        <item name="android:padding">8dp</item>
+    </style>
+</resources>
+

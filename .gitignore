@@ -62,9 +62,11 @@ desktop.ini
 
 # VS Code
 .vscode/
+*.code-workspace
 
 # Others
 .idea/*
+**/.idea/
 
 # Prevent accidentally committing large files
 *.exe
@@ -87,6 +89,9 @@ out/
 
 # Ignore distribution zips
 /*.zip
+
+# Ignore local Gradle SDK properties files in modules
+**/local.properties
 
 # Keep this file in repo
 !/.gitignore
