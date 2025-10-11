@@ -1,0 +1,2 @@
+# IDE-level .gitignore for contadir/.idea
+# Root .gitignore contains common IDE ignores. Keep this file for any IDE-specific patterns.
