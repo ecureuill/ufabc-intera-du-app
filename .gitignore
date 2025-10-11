@@ -14,6 +14,9 @@
 
 # IntelliJ / Android Studio
 /.idea/
+.idea/**/caches/
+.idea/**/workspace.xml
+.idea/**/deviceStreaming.xml
 *.iml
 *.iws
 .idea_modules/
