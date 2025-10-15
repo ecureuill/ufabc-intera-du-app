@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.Atividade07" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
@@ -6,4 +6,13 @@
     </style>
 
     <style name="Theme.Atividade07" parent="Base.Theme.Atividade07" />
+
+    <style name="Theme.Atividade07.HighContrast" parent="Base.Theme.Atividade07">
+        <item name="colorPrimary">@color/high_contrast_primary</item>
+        <item name="colorOnPrimary">@color/high_contrast_onPrimary</item>
+        <item name="android:colorBackground">@color/high_contrast_background</item>
+        <item name="colorSecondary">@color/high_contrast_secondary</item>
+        <item name="colorOnSecondary">@color/high_contrast_onSecondary</item>
+        <item name="background">@color/high_contrast_background</item>
+    </style>
 </resources>

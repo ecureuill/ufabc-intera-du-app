@@ -9,4 +9,6 @@
     <string name="perfil_dados_basicos">Perfil - Dados Básicos</string>
     <string name="hint_nome">Fulano Beltrano</string>
     <string name="hint_seu_email_com">seu@email.com</string>
+    <string name="personalizar_o_app">Personalizar o app</string>
+    <string name="alto_contraste">Alto Contraste</string>
 </resources>

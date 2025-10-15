@@ -5,6 +5,11 @@
     <color name="background">#F5F5F5</color>
     <color name="secondary">#FFB300</color>
     <color name="onSecondary">#212121</color>
-    <color name="surface">#FFFFFF</color>
-    <color name="onSurface">#212121</color>
+
+    <!-- Alto contraste (light): fundo branco, textos e elementos pretos, azul para destaque -->
+    <color name="high_contrast_primary">#000000</color> <!-- Preto para elementos principais -->
+    <color name="high_contrast_onPrimary">#FFFFFF</color> <!-- Branco para texto em botões principais -->
+    <color name="high_contrast_background">#FFFFFF</color> <!-- Fundo branco -->
+    <color name="high_contrast_secondary">#1565C0</color> <!-- Azul escuro para elementos secundários/destaque -->
+    <color name="high_contrast_onSecondary">#FFFFFF</color> <!-- Branco para texto em botões secundários -->
 </resources>
