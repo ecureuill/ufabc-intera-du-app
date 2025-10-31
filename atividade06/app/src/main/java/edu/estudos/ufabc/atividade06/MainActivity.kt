@@ -1,8 +1,8 @@
 package edu.estudos.ufabc.atividade06
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -10,9 +10,9 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
     private var count: Int = 0
-    private lateinit var txtContador: TextView
     private lateinit var btnIncrementar: Button
     private lateinit var btnZerar: Button
+    private lateinit var btnAvancar: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,16 +23,22 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        txtContador = findViewById<TextView>(R.id.txtContador)
-        btnIncrementar = findViewById<Button>(R.id.btnIncrementar)
-        btnZerar = findViewById<Button>(R.id.btnZerar)
+        btnIncrementar = findViewById(R.id.btnIncrementar)
+        btnZerar = findViewById(R.id.btnZerar)
+        btnAvancar = findViewById(R.id.btnAvancar)
+
         btnIncrementar.setOnClickListener {
             count++
-            txtContador.text = count.toString()
         }
+
         btnZerar.setOnClickListener {
             count = 0
-            txtContador.text = count.toString()
+        }
+
+        btnAvancar.setOnClickListener {
+            val intent = Intent(this, MainActivity2::class.java)
+            intent.putExtra("count", count)
+            startActivity(intent)
         }
     }
 }

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">atividade06</string>
+    <string name="zerar">Zerar</string>
+    <string name="contador">Contador</string>
+    <string name="incrementar">Incrementar</string>
+    <string name="ir_para_a_pagina_2">Ir para a Página 2</string>
 </resources>

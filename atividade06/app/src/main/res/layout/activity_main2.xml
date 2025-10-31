@@ -5,57 +5,44 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
+
 
     <TextView
-        android:id="@+id/txtContador"
+        android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="@string/contador"
+        android:text="Contador"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnZerar"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/txtContador"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/zerar"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnIncrementar"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toTopOf="@+id/btnVoltar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtContador"
-        app:layout_constraintVertical_bias="0.505"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
-        android:id="@+id/btnIncrementar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/incrementar"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnAvancar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnZerar" />
-
-    <Button
-        android:id="@+id/btnAvancar"
+        android:id="@+id/btnVoltar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="@string/ir_para_a_pagina_2"
+        android:text="Voltar para a Página 1"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
