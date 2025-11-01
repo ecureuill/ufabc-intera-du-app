@@ -6,4 +6,5 @@ Repositório com tarefas e projetos resultantes do curso [“Programação Acess
 - [Exercícios Kotlin](./exercicios.kt) — Exercícios e exemplos em Kotlin.
 - [Atividade 04 (projeto Android)](./atividade04/)
 - [Atividade 07 (projeto Android)](./atividade07/)
-- [Contadir](./contadir/)
+- [Atividade 06 (projeto Android)](./atividade06/)
+- [Atividade 11 (projeto Android)](./atividade11/)

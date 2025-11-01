@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Atividade11</string>
+
+    <string name="imc_nome_label">Nome</string>
+    <string name="imc_peso_label">Peso</string>
+    <string name="imc_altura_label">Altura</string>
+    <string name="imc_imc_label">IMC</string>
+    <string name="imc_classificacao_label">Classificação</string>
+    <string name="imc_resultado_label">Resultado</string>
+    <string name="imc_voltar_button">Voltar</string>
+
+    <string name="imc_display_nome">Nome: %1$s</string>
+    <string name="imc_display_peso">Peso: %1$.2f kg</string>
+    <string name="imc_display_altura">Altura: %1$.2f m</string>
+    <string name="imc_display_imc">IMC: %1$.2f</string>
+
+    <string name="imc_classificacao_magro">Magro</string>
+    <string name="imc_classificacao_normal">Normal</string>
+    <string name="imc_classificacao_sobrepeso">Sobrepeso</string>
+    <string name="imc_classificacao_obeso">Obeso</string>
+
+    <string name="main_titulo">Cálculo do IMC</string>
+    <string name="main_subtitulo">(índice de Massa Corporal)</string>
+    <string name="main_nome_hint">Digite seu nome</string>
+    <string name="main_peso_hint">Informe seu peso</string>
+    <string name="main_altura_hint">Informe sua altura em metros</string>
+    <string name="main_calculo_do_imc_button">Cálculo do IMC</string>
+</resources>
