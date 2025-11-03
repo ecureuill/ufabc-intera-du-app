@@ -36,12 +36,13 @@ class IMC_Activity : AppCompatActivity() {
         txtResultado = findViewById(R.id.txtResultado)
         btnVoltar = findViewById(R.id.btnVoltar)
         imgClassificacao = findViewById(R.id.imgClassificacao)
+        txtClassificacao = findViewById(R.id.txtClassificacao)
 
         btnVoltar.setOnClickListener {
             finish()
         }
 
-        val         val bundle = intent.extras
+        val bundle = intent.extras
         if (bundle != null) {
             val nome = bundle.getString("nome")
             val peso = bundle.getDouble("peso")
@@ -72,6 +73,7 @@ class IMC_Activity : AppCompatActivity() {
             }
             txtResultado.text = classificacao
             imgClassificacao.setImageResource(imagemResource)
+            imgClassificacao.contentDescription = getString(R.string.imc_classificacao_label) + ": " + classificacao
         }
     }
 }
