@@ -1,9 +1,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Atividade11" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.Tema1" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorLightSurface">@color/lightSurface</item>
+        <item name="colorOnLightSurfaceDim">@color/onLightSurfaceDim</item>
+        <item name="colorOnLightSurface">@color/onLightSurface</item>
     </style>
 
-    <style name="Theme.Atividade11" parent="Base.Theme.Atividade11" />
+    <style name="Theme.Tema2" parent="Theme.Material3.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/theme2_primary</item>
+            <item name="colorOnPrimary">@color/theme2_onPrimary</item>
+            <item name="colorSurface">@color/theme2_surface</item>
+            <item name="colorOnSurface">@color/theme2_onSurface</item>
+            <item name="colorLightSurface">@color/theme2_lightSurface</item>
+            <item name="colorOnLightSurfaceDim">@color/theme2_onLightSurfaceDim</item>
+            <item name="colorOnLightSurface">@color/theme2_onLightSurface</item>
+    </style>
 </resources>

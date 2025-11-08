@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#ff6750a4</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="surface">#fffef7ff</color>
+    <color name="lightSurface">#FFFFFF</color>
+    <color name="onLightSurfaceDim">#555555</color>
+    <color name="onLightSurface">#222222</color>
+    <color name="onSurface">#FF000000</color>
+
+    <color name="theme2_primary">#FF3700B3</color>
+    <color name="theme2_onPrimary">#00ff00</color>
+    <color name="theme2_surface">#ffff00</color>
+    <color name="theme2_lightSurface">#fff000</color>
+    <color name="theme2_onSurface">#dd0099</color>
+    <color name="theme2_onLightSurface">#ff0f00</color>
+    <color name="theme2_onLightSurfaceDim">#ff00ff</color>
 </resources>
