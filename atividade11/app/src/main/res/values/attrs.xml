@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <attr name="colorLightSurface" format="color" />
-    <attr name="colorOnLightSurfaceDim" format="color" />
-    <attr name="colorOnLightSurface" format="color" />
-</resources>

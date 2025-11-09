@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    style="@style/ViewStyle"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".IMC_Activity">
 
     <TextView
         android:id="@+id/txtNome"
-        style="@style/TxtViewCorpoStyle"
+        android:textSize="16sp"
+        android:textAlignment="center"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -21,7 +21,8 @@
 
     <TextView
         android:id="@+id/txtPeso"
-        style="@style/TxtViewCorpoStyle"
+        android:textSize="16sp"
+        android:textAlignment="center"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -33,7 +34,8 @@
 
     <TextView
         android:id="@+id/txtAltura"
-        style="@style/TxtViewCorpoStyle"
+        android:textSize="16sp"
+        android:textAlignment="center"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -45,7 +47,8 @@
 
     <TextView
         android:id="@+id/txtIMC"
-        style="@style/TxtViewCorpoStyle"
+        android:textSize="16sp"
+        android:textAlignment="center"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -57,7 +60,8 @@
 
     <TextView
         android:id="@+id/txtClassificacao"
-        style="@style/TxtViewCorpoStyle"
+        android:textSize="16sp"
+        android:textAlignment="center"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -69,7 +73,8 @@
 
     <TextView
         android:id="@+id/txtResultado"
-        style="@style/TxtViewCorpoStyle"
+        android:textSize="16sp"
+        android:textAlignment="center"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -92,7 +97,6 @@
 
     <Button
         android:id="@+id/btnVoltar"
-        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

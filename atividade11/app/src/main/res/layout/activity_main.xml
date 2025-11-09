@@ -3,14 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    style="@style/ViewStyle"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/txtSubtitulo"
-        style="@style/TxtViewSubtituloStyle"
+        android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -21,8 +20,8 @@
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
 
     <TextView
-        style="@style/TxtViewTituloStyle"
         android:id="@+id/txtTitulo"
+        android:textSize="24sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -34,7 +33,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout4"
-        style="@style/InputLayoutStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -46,7 +44,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtNome"
-            style="@style/InputEditTextStyle"
+            android:textSize="16sp"
+            android:padding="14dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/main_nome_hint"
@@ -55,7 +54,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout5"
-        style="@style/InputLayoutStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -67,7 +65,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtPeso"
-            style="@style/InputEditTextStyle"
+            android:textSize="16sp"
+            android:padding="14dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/main_peso_hint"
@@ -76,7 +75,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout6"
-        style="@style/InputLayoutStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -88,7 +86,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtAltura"
-            style="@style/InputEditTextStyle"
+            android:textSize="16sp"
+            android:padding="14dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/main_altura_hint"
@@ -97,7 +96,6 @@
 
     <Button
         android:id="@+id/btnCalcular"
-        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

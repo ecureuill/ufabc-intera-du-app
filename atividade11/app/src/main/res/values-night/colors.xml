@@ -1,9 +1,0 @@
-<resources>
-    <color name="primary">#FF3700B3</color>
-    <color name="onPrimary">#FFFFFF</color>
-    <color name="surface">#FF121212</color>
-    <color name="lightSurface">#FF222222</color>
-    <color name="onSurface">#FFFFFFFF</color>
-    <color name="onLightSurface">#FFFFFFFF</color>
-    <color name="onLightSurfaceDim">#DADADA</color>
-</resources>
