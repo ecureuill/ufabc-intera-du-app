@@ -8,6 +8,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.mobile.mobiledu.DUSettingsApplier
+import com.mobile.mobiledu.EnvironmentApplier
+import com.mobile.mobiledu.SoundApplier
 
 class IMC_Activity : AppCompatActivity() {
     private lateinit var txtNome: TextView
@@ -74,6 +77,17 @@ class IMC_Activity : AppCompatActivity() {
             txtResultado.text = classificacao
             imgClassificacao.setImageResource(imagemResource)
             imgClassificacao.contentDescription = getString(R.string.imc_classificacao_label) + ": " + classificacao
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        try {
+            DUSettingsApplier.applyToActivity(this)
+            EnvironmentApplier.applyToActivity(this)
+            SoundApplier.applyToActivity(this)
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
     }
 }
