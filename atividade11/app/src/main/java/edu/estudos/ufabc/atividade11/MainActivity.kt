@@ -8,6 +8,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.mobile.mobiledu.DUSettingsApplier
+import com.mobile.mobiledu.EnvironmentApplier
+import com.mobile.mobiledu.SoundApplier
 
 class MainActivity : AppCompatActivity() {
 
@@ -48,9 +51,16 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-//        if (::edtNome.isInitialized) edtNome.text.clear()
-//        if (::edtPeso.isInitialized) edtPeso.text.clear()
-//        if (::edtAltura.isInitialized) edtAltura.text.clear()
-//        edtNome.requestFocus()
+        try {
+            DUSettingsApplier.applyToActivity(this)
+            EnvironmentApplier.applyToActivity(this)
+            SoundApplier.applyToActivity(this)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+        if (::edtNome.isInitialized) edtNome.text.clear()
+        if (::edtPeso.isInitialized) edtPeso.text.clear()
+        if (::edtAltura.isInitialized) edtAltura.text.clear()
+        edtNome.requestFocus()
     }
 }
